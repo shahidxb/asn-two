@@ -322,16 +322,43 @@ Mid Section Control End
  Article Control End
  -------------------------- */
 
+ /*----------------------
+ Footer Start
+ ----------------------- */
+
+body footer{
+
+    left:214px;
+    position:absolute;
+    top:3450px;
+}
+body footer .foo-icons{
+    display: grid;
+    grid-template-columns: repeat(4,0.1fr);
+    font-size: 50px;
+    position:relative;
+    top:-30px;
+    left:350px;
+}
+body footer .cpyr8{
+    position: absolute;
+    top:249px;
+    left:349px;
+}
+/* ------------------------
+Footer End 
+---------------------------*/
 
  /*--------------------------
   Responsive Style : Mobail Devices
   Chrome iphoneX  RES= 375x812 60%
+  it works fine
   ---------------------------*/
 
  @media only screen and (max-width: 600px) {
 
     body {
-      background-color: lightblue;
+      background-color: rgb(255, 255, 255);
     }
     .top-section{ 
 
@@ -484,12 +511,39 @@ Mid Section Control End
     left: 10px;
     top: 420px;
     }
+    body footer{
+
+        left:0px;
+        position:absolute;
+        top:7750px;
+    }
+    body footer img{
+        position:relative;
+        height: 200px;
+        width: 400px;
+        top:-200px;
+     
+
+    }
+    body footer .foo-icons{
+        display: grid;
+        grid-template-columns: repeat(4,0.1fr);
+        font-size: 35px;
+        position:relative;
+        top:-200px;
+        left:50px;
+    }
+    body footer .cpyr8{
+        position: absolute;
+        top: 60px;
+        left:15px;
 
 }
 
 /*-----------------------------------------
  Responsive Style : Tablet devices 
  Chrome Custom Res : 920x503 100%
+ its showing some problem but tried.
  -----------------------------------------*/
 
  @media only screen and (min-width: 688px) and (max-width: 992px) {
@@ -645,5 +699,32 @@ Mid Section Control End
     left: 390px;
     top: 150px;
     }
+    body footer{
+
+        left:0px;
+        position:absolute;
+        top:7750px;
+    }
+    body footer img{
+        position:relative;
+        height: 200px;
+        width: 400px;
+        top:-200px;
+     
+
+    }
+    body footer .foo-icons{
+        display: grid;
+        grid-template-columns: repeat(4,0.1fr);
+        font-size: 35px;
+        position:relative;
+        top:-200px;
+        left:50px;
+    }
+    body footer .cpyr8{
+        position: absolute;
+        top: 60px;
+        left:15px;
 
 }
+
