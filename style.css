@@ -318,7 +318,7 @@ Mid-section CSS
     .top-section{ 
 
         /* display:flex; */  
-        width:230%;
+        width:100%;
         height: 370px;
         /* transition: background-color 3s ease; */
        
@@ -328,11 +328,11 @@ Mid-section CSS
         position: absolute;
         width: 200px;
         height: 230px;
-        left: 200px;
-        top: 60px;
+        left: 10px;
+        top: 20px;
         font-style: normal;
         font-weight: bold;
-        font-size: 25px;
+        font-size: 15px;
         line-height: 40px;
         color:#FFFFFF;
     
@@ -343,8 +343,8 @@ Mid-section CSS
         width: 90px;
         height: 20px;
         padding: 10px 24px;
-        left: 200px;
-        top: 250px;
+        left: 10px;
+        top: 120px;
         background-color: #E02C6D;
         /* transition: transform 7.8s ease, background-color 1s ease; */
     
@@ -358,113 +358,112 @@ Mid-section CSS
         text-decoration: none;
         
     }
-
     .topright img{
         position: absolute;
-        width: 500px;
-        height: 300px;
-        left: 700px;
-        top: 20px;
+        width: 300px;
+        height: 200px;
+        left: 70px;
+        top: 170px;
         /* transition: transform 3s ease; */
         
     }
-/* -------------------------
-Mid-section CSS
---------------------------- */
+    .mid-section{
+        position:absolute;
+        top: 450px;
+    }
+    .mid-section .players{
 
-.mid-section{
-    position:absolute;
-    top: 450px;
-}
-
-/* grid layout playersinfo */
-
-.mid-section .players{
-
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    gap: 30px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+        
     
-   
-}
-/* Individial Grid design */
+    }
+    .mid-section .player{
 
-.mid-section .player{
+        position: relative;
+        width: 330px;
+        height: 474px;
+        left: 10px;
+        padding: 15px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+        transition: transform 5.8s cubic-bezier(0.6, 0.35, 0.36, 0.64);
+    }
+    .article{
+        position:absolute;
+        top:6600px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .awrapper{
+    position:absolute;
+    top:240px;
+    display: flex;
+    left:12px;
+    width: 466px;
+    height: 241px;
 
-    position: relative;
-    width: 330px;
-    height: 474px;
-    left: 80px;
-    padding: 15px;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-    transition: transform 5.8s cubic-bezier(0.6, 0.35, 0.36, 0.64);
-}
-
-
-/* Gride image control */
-
-.mid-section .players .player img{
-
-    position: relative;
+    }
+    .left{
+        position:absolute;
+        display: flex;
+        flex-direction:column;
+        top:74px;
+    }
+    .left .header{
+        
     width: 300px;
-    height: 256px;
+    height: 120px;
     left: 0px;
     top: 0px;
-    margin: 16px 16px;
-
-}
-
-/* Gride player details control */
-
-.mid-section .players .player .player-details{
-
-    position: static;
-    text-align: left;
-    width: 300px;
-    height: 154px;
-    top: 272px;
-    align-self: stretch;
-    margin: 16px 0px;
-    overflow: hidden;
-}
-
-.mid-section .players .player .player-details h2{
-    position: static;
-    width: 300px;
-    left: calc(50% - 300px/2);
-    top: 0%;
-    bottom: 74.03%;
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
-    font-size: 28px;
-    line-height: 40px;
-    font-feature-settings: 'liga' off;
-    color: #18191F;
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-    margin: 8px 0px;
-}
-.mid-section .players .player .player-details p{
-    position: static;
-    width: 300px;
-    left: calc(50% - 300px/2);
-    top: 32.47%;
-    bottom: 0%;
+    font-size: 20px;
+    line-height: 60px;
+    color: #0A0826;
+
+    }
+    .left .pgraph{
+
+    width: 330px;
+    height: 113px;
+    left: 0px;
+    top: 128px;
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 26px;
-    font-feature-settings: 'liga' off;
+    line-height: 28px;
     color: #6C6C6C;
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
-    margin: 10px 0px;
+
+    }
+    .left .link{
+
+    position: absolute;
+    width: 90px;
+    height: 20px;
+    left: 0px;
+    top: 250px;
+    background: #E02C6D;
+    margin: 24px 0px;
+
+    }
+    .left .link a{
+
+    position:absolute;
+    top:30%;
+    left:12%;
+    color:white;
+    text-decoration: none;
+
+    }
+    .right img{
+
+    position: absolute;
+    width: 300px;
+    height: 227px;
+    left: 10px;
+    top: 420px;
+    }
 }
-  }
