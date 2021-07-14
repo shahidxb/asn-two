@@ -1,4 +1,12 @@
-/* fonts */
+/*-----------------------------------------------------------
+| CSS for https://shahidxb.github.io/asn-two/index.html     |
+|    Author : Abdulla Al Shahid                             |
+|    Mail   : shahidabdulla.aas@gmail.com                   |
+|-----------------------------------------------------------*/
+
+
+
+/* imported google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
 
  /* reset all margin padding */
@@ -20,7 +28,9 @@ body{
     font-family: 'Poppins', sans-serif;
   }
   
-/* Topsection css part*/
+/* -----------------------
+Topsection css part start
+--------------------------*/
 
 .top-section{ 
 
@@ -108,6 +118,11 @@ body{
 
 
 }
+
+/*---------------------------
+ Top Section Css Part End 
+ ----------------------------*/
+
 
 /* -------------------------
 Mid-section CSS Start
@@ -302,6 +317,7 @@ Mid Section Control End
     height: 427px;
     left: 570px;
  }
+
  /* -----------------------
  Article Control End
  -------------------------- */
