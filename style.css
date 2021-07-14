@@ -305,6 +305,11 @@ Mid-section CSS
  Article Control End
  -------------------------- */
 
+
+ /*--------------------------
+  Responsive Style 
+  ---------------------------*/
+
  @media only screen and (max-width: 600px) {
 
     body {
@@ -313,7 +318,7 @@ Mid-section CSS
     .top-section{ 
 
         /* display:flex; */  
-        width:100%;
+        width:230%;
         height: 370px;
         /* transition: background-color 3s ease; */
        
@@ -323,11 +328,11 @@ Mid-section CSS
         position: absolute;
         width: 200px;
         height: 230px;
-        left: 25px;
+        left: 200px;
         top: 60px;
         font-style: normal;
         font-weight: bold;
-        font-size: 18px;
+        font-size: 25px;
         line-height: 40px;
         color:#FFFFFF;
     
@@ -338,8 +343,8 @@ Mid-section CSS
         width: 90px;
         height: 20px;
         padding: 10px 24px;
-        left: 25px;
-        top: 190px;
+        left: 200px;
+        top: 250px;
         background-color: #E02C6D;
         /* transition: transform 7.8s ease, background-color 1s ease; */
     
@@ -353,15 +358,13 @@ Mid-section CSS
         text-decoration: none;
         
     }
-    
-    /* Banner */
-    
+
     .topright img{
         position: absolute;
-        width: 300px;
-        height: 200px;
-        left: 290px;
-        top: 50px;
+        width: 500px;
+        height: 300px;
+        left: 700px;
+        top: 20px;
         /* transition: transform 3s ease; */
         
     }
