@@ -110,7 +110,7 @@ body{
 }
 
 /* -------------------------
-Mid-section CSS
+Mid-section CSS Start
 --------------------------- */
 
 .mid-section{
@@ -141,15 +141,12 @@ Mid-section CSS
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     transition: transform 5.8s cubic-bezier(0.6, 0.35, 0.36, 0.64);
 }
-
 /* Gride Hover */
-
 .mid-section .player:hover{
     transform: scale(1.05,1.05);
     filter: drop-shadow(0px 0px 10px rgba(255, 30, 161, 0.705)) blur(0px);
 
 }
-
 /* Gride image control */
 
 .mid-section .players .player img{
@@ -162,7 +159,6 @@ Mid-section CSS
     margin: 16px 16px;
 
 }
-
 /* Gride player details control */
 
 .mid-section .players .player .player-details{
@@ -176,7 +172,6 @@ Mid-section CSS
     margin: 16px 0px;
     overflow: hidden;
 }
-
 .mid-section .players .player .player-details h2{
     position: static;
     width: 300px;
@@ -215,6 +210,12 @@ Mid-section CSS
     flex-grow: 0;
     margin: 10px 0px;
 }
+
+/* ------------------------
+Mid Section Control End 
+--------------------------*/
+
+
 /*-------------------------
  Article Control Start 
  -------------------------*/
@@ -472,7 +473,7 @@ Mid-section CSS
 
 /*-----------------------------------------
  Responsive Style : Tablet devices 
-
+ Chrome Custom Res : 920x503 100%
  -----------------------------------------*/
 
  @media only screen and (min-width: 688px) and (max-width: 992px) {
