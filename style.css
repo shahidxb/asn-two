@@ -318,7 +318,7 @@ Mid-section CSS
     .top-section{ 
 
         /* display:flex; */  
-        width:100%;
+        width:130%;
         height: 370px;
         /* transition: background-color 3s ease; */
        
@@ -362,8 +362,8 @@ Mid-section CSS
         position: absolute;
         width: 300px;
         height: 200px;
-        left: 70px;
-        top: 170px;
+        left: 150px;
+        top: 150px;
         /* transition: transform 3s ease; */
         
     }
@@ -384,7 +384,7 @@ Mid-section CSS
         position: relative;
         width: 330px;
         height: 474px;
-        left: 10px;
+        left: 40px;
         padding: 15px;
         background: #FFFFFF;
         box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
@@ -399,7 +399,7 @@ Mid-section CSS
     position:absolute;
     top:240px;
     display: flex;
-    left:12px;
+    left:10px;
     width: 466px;
     height: 241px;
 
@@ -414,7 +414,7 @@ Mid-section CSS
         
     width: 300px;
     height: 120px;
-    left: 0px;
+    left: 10px;
     top: 0px;
     font-family: Poppins;
     font-style: normal;
@@ -428,7 +428,7 @@ Mid-section CSS
 
     width: 330px;
     height: 113px;
-    left: 0px;
+    left: 10px;
     top: 128px;
     font-family: Poppins;
     font-style: normal;
@@ -443,7 +443,7 @@ Mid-section CSS
     position: absolute;
     width: 90px;
     height: 20px;
-    left: 0px;
+    left: 10px;
     top: 250px;
     background: #E02C6D;
     margin: 24px 0px;
